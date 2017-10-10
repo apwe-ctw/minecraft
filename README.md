@@ -1,13 +1,3 @@
-start time = 10:15
-judy/yiling - ice breaker
-disha - minecraft intro video
-print out sheet/card with commands
-volunteers - 3D coordinate visual - leave sheets of paper on tables
-schedule volunteer training session
-volunteers need to be very clear with coordinate system (y is height!)
-write script to clear area, make 2D , start at 0,0,0
-tower to wall: call tower 3 times, or for loop for wall
-
 # Minecraft Programming using Python and Raspberry Pi
 
 - Lesson plan is based on a 10am - 4pm day (including snack breaks!)
