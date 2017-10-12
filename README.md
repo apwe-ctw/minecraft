@@ -31,7 +31,8 @@
 
 ### Introduction to Python (30 mins: 11:10am - 11:40am)
 - [Python RefCard](https://dzone.com/refcardz/core-python)
-- [Jupyter Notebook](notebook/)
+- [Jupyter Notebook](notebook/) 
+- 'Introduction' notebook
 
 ![hello](screenshots/hello_world.png)
 
@@ -65,19 +66,28 @@
   
 ![Coordinate Systems](http://viz.aset.psu.edu/gho/sem_notes/3d_fundamentals/gifs/left_right_hand.gif)
 
+## Try these out!
     - Move to position 0,0,0
     - Move to position 3,8,7
 
 ![House](screenshots/house.png)
 
-
-
-### Lunch Break (45 mins: 12:00pm - 12:45pm)
-- Video: Pair Programming (from code.org)
-- Minecraft Bingo
-
-### Minecraft Programming (90 mins: 12:45pm - 2:15pm)
+### Minecraft Programming (35 mins: 11:55am - 12:30pm)
 - [Jupyter Notebook](notebook/)
+- 'Minecraft Programming' notebook
 
-### Electronics (90 mins 2:15pm - 3:45pm)
+### Lunch Break (45 mins: 12:30pm - 1:15pm)
+- Makey Makey and VR Booths
+
+### Minecraft Programming Continued (45 mins 1:15pm - 2:00pm)
+- Continue with 'Minecraft Programming' notebook
+- Build your house! 
+
+### Electronics Introduction + Setup (30 mins 2:00pm - 2:30pm)
+
+### Electronics + MineCraft (75 mins 2:30pm - 3:45pm)
+- SmartHome and Bulldozer Exercise
+- [Jupyter Notebook](notebook/)
+- 'Minecraft Electronics' notebook
+
 - [Jupyter Notebook](notebook/)
