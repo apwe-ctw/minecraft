@@ -34,8 +34,6 @@
 - [Jupyter Notebook](notebook/) 
 - 'Introduction' notebook
 
-![hello](screenshots/hello_world.png)
-
 ### Introduction to Minecraft (15 mins: 11:40am - 11:55am)  
   - Play the game!
     - Menu -> Games -> Minecraft
@@ -70,11 +68,11 @@
     - Move to position 0,0,0
     - Move to position 3,8,7
 
-![House](screenshots/house.png)
-
 ### Minecraft Programming (35 mins: 11:55am - 12:30pm)
 - [Jupyter Notebook](notebook/)
 - 'Minecraft Programming' notebook
+
+![hello](screenshots/hello_world.png)
 
 ### Lunch Break (45 mins: 12:30pm - 1:15pm)
 - Makey Makey and VR Booths
@@ -82,6 +80,8 @@
 ### Minecraft Programming Continued (45 mins 1:15pm - 2:00pm)
 - Continue with 'Minecraft Programming' notebook
 - Build your house! 
+
+![House](screenshots/house.png)
 
 ### Electronics Introduction + Setup (30 mins 2:00pm - 2:30pm)
 
