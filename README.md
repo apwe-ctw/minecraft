@@ -90,6 +90,4 @@
 - [Jupyter Notebook](notebook/)
 - 'Minecraft Electronics' notebook
 
-- [Jupyter Notebook](notebook/)
-
 ### It's a Wrap! (15 mins 3:35-4:00pm)
