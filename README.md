@@ -1,29 +1,43 @@
 # Minecraft Programming using Python and Raspberry Pi
 
-- Lesson plan is based on a 10am - 4pm day (including snack breaks!)
+- Lesson plan is based on a 9:15am - 4pm day (including snack breaks!)
 
-### General Introductions (15 mins: 10am - 10:15am)   
+### Volunteer Briefing (45 mins: 9:15am -10:00am)
 
-- Youtube video on coding
+- Run through of day
+- Try out Minecraft and RasPi 
 
-### Ice Breaker (15 mins: 10:15am - 10:30am)   
+### Participants Arrive + Settle (15 mins: 10am - 10:15am)   
 
-- Hour of Code Ice breaker - Judy and Yiling
+### Welcome (25 mins: 10:15am - 10:40am)   
 
-### Setup Raspberry Pi (15 mins: 10:30am - 10:50am) 
-- Video: What is a Raspberry?
+- Run through of the day
+- TWF intro
+- Video: Computer Programming is Changing Everything
+
+### Ice-Breaker (10 mins: 10:40am - 10:50am)
+
+### Setup Raspberry Pi (10 mins: 10:50am - 11:00am) 
+- What is a Raspberry?
 - Pi board
 - SD Card (pre-setup)
 - HDMI (display) cable
-- Wifi
 - Keyboard
 - Mouse
 - Power
 
-### Introduction to Minecraft (20 mins: 10:45am - 11:15am) 20 mins
-  - What is minecraft Video? Disha 
+### Purpose of the Day - what we will be building today (10 mins: 11:00am - 11:10am)
+- What is Minecraft?
+
+### Introduction to Python (30 mins: 11:10am - 11:40am)
+- [Python RefCard](https://dzone.com/refcardz/core-python)
+- [Jupyter Notebook](notebook/)
+
+![hello](screenshots/hello_world.png)
+
+### Introduction to Minecraft (15 mins: 11:40am - 11:55am)  
   - Play the game!
-    - Menu -> Minecraft
+    - Menu -> Games -> Minecraft
     - Start Game -> Create New (you can create new worlds till you get one you like)
   - Keys:
   
@@ -56,12 +70,7 @@
 
 ![House](screenshots/house.png)
 
-### Introduction to Python (45 mins: 11:15am - 12:00pm)
-- Why Python?
-  - [Python RefCard](https://dzone.com/refcardz/core-python)
-- [Jupyter Notebook](notebook/)
 
-![hello](screenshots/hello_world.png)
 
 ### Lunch Break (45 mins: 12:00pm - 12:45pm)
 - Video: Pair Programming (from code.org)
