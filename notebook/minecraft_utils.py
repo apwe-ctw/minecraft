@@ -1,5 +1,8 @@
 import mcpi.minecraft as minecraft
 import mcpi.block as block
+import time
+import random
+import RPi.GPIO as GPIO
 
 mc = minecraft.Minecraft.create();
 
@@ -126,3 +129,29 @@ def castle():
      
     print("Position player on Keep's walkway")
     mc.player.setPos(0,30,4)
+
+def roof(t, pos_x, pos_y, pos_z, size_x, size_z):
+    height = (size_x+1)/2
+    for x in range(0, size_x):
+        y = x if x<height else size_x-1-x
+        mc.setBlocks(pos_x+x, pos_y+y, pos_z, pos_x+x, pos_y+y+1, pos_z+size_z, t)
+        if(y+1<=height):
+            mc.setBlocks(pos_x+x, pos_y+y+2, pos_z, pos_x+x, pos_y+height+1, pos_z+size_z, block.AIR.id)
+
+def house(roof_block, wall_block, x, y, z, width, depth, height):
+    # assemble your function here!
+    mc.setBlocks(x, y, z, x+width-1, y+height-1, z+depth-1, wall_block)
+    mc.setBlocks(x+1, y, z+1, x+width-2, y+height-1, z+depth-2, block.AIR.id)
+    roof(roof_block, x-1, y+height-width/2, z-1, width+2, depth+2)
+    mc.setBlocks(x+(width-1)/2, y, z, x+width/2, y+2, z, block.AIR.id)
+
+def village():
+    reset()
+    blocks = [block.SANDSTONE, block.SNOW_BLOCK, block.STONE, block.BRICK_BLOCK, block.MELON]
+    for i in range(0, 10):
+        house(blocks[random.randrange(0,len(blocks))],blocks[random.randrange(0,len(blocks))],i*10,0,0,random.randrange(5,8),random.randrange(5,8), random.randrange(6,15))
+    mc.player.setPos(20,0,30)
+
+def megaJump():
+    x, y, z, = mc.player.getTilePos()
+    mc.player.setPos(x,100,z)
