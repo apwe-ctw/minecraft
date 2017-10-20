@@ -1,5 +1,8 @@
 import mcpi.minecraft as minecraft
 import mcpi.block as block
+import time
+import random
+import RPi.GPIO as GPIO
 
 mc = minecraft.Minecraft.create();
 
@@ -126,3 +129,79 @@ def castle():
      
     print("Position player on Keep's walkway")
     mc.player.setPos(0,30,4)
+
+def placeBlockHere(b, data=0):
+    x,y,z=mc.player.getTilePos()
+    mc.setBlock(x,y,z,b,data)
+
+def placeBlockAt(x,y,z,b,data=0):
+    mc.setBlock(x,y,z,b,data)
+
+def buildCubeAt(x,y,z,width,height,depth,b,data=0):
+    mc.setBlocks(x,y,z,x+width-1,y+height-1,z+depth-1,b,data)
+
+def buildRoofAt(x,y,z,width,height,depth,b,data=0):
+    h=(width+3)/2
+    for i in range(0, width+2):
+        j = y+height+1+i-h if i<h else y+height+h-width%2-i
+        mc.setBlocks(x+i-1, j, z-1, x+i-1, j+1, z+depth, b, data)
+        if(j<y+height):
+            mc.setBlocks(x+i-1, j+2, z-1, x+i-1, y+height+1, z+depth, block.AIR.id)
+           
+def house(x=0, y=0, z=0, roof_block=block.MELON.id, wall_block=block.BRICK_BLOCK.id, width=10, depth=10, height=10):    # assemble your function here!
+    buildCubeAt(x,y,z,width,height,depth,wall_block)
+    buildCubeAt(x+1,y,z+1,width-2,height,depth-2,block.AIR.id)
+    buildRoofAt(x,y,z,width,height,depth,roof_block)
+    buildCubeAt(x+(width-1)/2,y,z,(width-1)%2+1,2,1,block.AIR.id)
+
+def village():
+    reset()
+    blocks = [block.SANDSTONE, block.SNOW_BLOCK, block.STONE, block.BRICK_BLOCK, block.MELON]
+    for i in range(0, 10):
+        house(i*10,0,0,blocks[random.randrange(0,len(blocks))],blocks[random.randrange(0,len(blocks))],random.randrange(5,8),random.randrange(5,8), random.randrange(6,15))
+    mc.player.setPos(30,0,-20)
+
+def megaJump():
+    x, y, z, = mc.player.getTilePos()
+    mc.player.setPos(x,100,z)
+
+def do_on_press(BUTTON, action):
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(BUTTON, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+    try:
+        while GPIO.input(BUTTON):
+            sleep(0.1)
+        print("button pressed")
+        action()
+    finally:
+        GPIO.cleanup()
+
+def bomb():
+    x, y, z, = mc.player.getTilePos()
+    mc.setBlocks(x-10, y-10, z-10, x+10, y+10, z+10, block.AIR)
+
+def do_with_countdown(BUTTON, LED_LIST, action):
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(BUTTON, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+
+    for LED in LED_LIST:
+        GPIO.setmode(GPIO.BCM)
+        GPIO.setup(LED, GPIO.OUT)
+
+    try:
+        for LED in LED_LIST:
+            GPIO.output(LED, True)
+
+        while GPIO.input(BUTTON):
+            sleep(0.1)
+
+        print("button pressed")
+
+        for LED in LED_LIST:
+            sleep(1)
+            GPIO.output(LED, False)
+        sleep(1)
+        action();
+
+    finally:
+        GPIO.cleanup()
