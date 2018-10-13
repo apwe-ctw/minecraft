@@ -26,15 +26,15 @@
 - Mouse
 - Power
 
-### Purpose of the Day - what we will be building today (10 mins: 11:00am - 11:10am)
-- What is Minecraft?
+### Game to introduce programming (25 mins: 11:00am - 11:25am)
+- http://compute-it.toxicode.fr/?hour-of-code
 
-### Introduction to Python (30 mins: 11:10am - 11:40am)
+### Introduction to Python (30 mins: 11:25am - 11:55am)
 - [Python RefCard](https://dzone.com/refcardz/core-python)
 - [Jupyter Notebook](notebook/) 
 - 'Introduction' notebook
 
-### Introduction to Minecraft (15 mins: 11:40am - 11:55am)  
+### Introduction to Minecraft (15 mins: 11:55am - 12:10pm)  
   - Play the game!
     - Menu -> Games -> Minecraft
     - Start Game -> Create New (you can create new worlds till you get one you like)
@@ -68,16 +68,16 @@
     - Move to position 0,0,0
     - Move to position 3,8,7
 
-### Minecraft Programming (35 mins: 11:55am - 12:30pm)
+### Minecraft Programming (35 mins: 12:10pm - 12:45pm)
 - [Jupyter Notebook](notebook/)
 - 'Minecraft Programming' notebook
 
 ![hello](screenshots/hello_world.png)
 
-### Lunch Break (45 mins: 12:30pm - 1:15pm)
+### Lunch Break (45 mins: 12:45pm - 1:30pm)
 - Makey Makey and VR Booths
 
-### Minecraft Programming Continued (45 mins 1:15pm - 2:00pm)
+### Minecraft Programming Continued (30 mins 1:30pm - 2:00pm)
 - Continue with 'Minecraft Programming' notebook
 - Build your house! 
 
