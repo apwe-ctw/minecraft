@@ -1,45 +1,70 @@
-# Minecraft Programming using Python and Raspberry Pi
+# Girls in IT Initiatives - 2025
 
-- Lesson plan is based on a 9:15am - 4pm day (including snack breaks!)
+- Date: 2025-04-12 (Saturday)
+- Time: 10:30am - 02:40pm
+- Location: Harbourside 1-2 (CKC 59F)
 
-### Volunteer Briefing (45 mins: 9:15am -10:00am)
-
-- Run through of day
-- Try out Minecraft and RasPi 
-
-### Participants Arrive + Settle (15 mins: 10am - 10:15am)   
-
-### Welcome (25 mins: 10:15am - 10:40am)   
-
-- Run through of the day
-- TWF intro
-- Video: Computer Programming is Changing Everything
-
-### Ice-Breaker (10 mins: 10:40am - 10:50am)
-
-### Setup Raspberry Pi (10 mins: 10:50am - 11:00am) 
-- What is a Raspberry?
-- Pi board
-- SD Card (pre-setup)
-- HDMI (display) cable
+### Setup Equipment (10:00am - 10:30am, 30 mins)
+Equipment:
+- Handout
+- Raspberry Pi
+- Protective Case (2 parts)
+- Power Plug + Power Adapter + Power Cable
+- Screwdriver + 2x long screws + 6x short screws
+- CPU Fan
+- Micro SD Card
+- HDMI Cable
 - Keyboard
 - Mouse
-- Power
 
-### Game to introduce programming (25 mins: 11:00am - 11:25am)
-- http://compute-it.toxicode.fr/?hour-of-code
+### Student Arrival (10:30am - 10:45am, 15 mins)
 
-### Introduction to Python (30 mins: 11:25am - 11:55am)
-- [Python RefCard](https://dzone.com/refcardz/core-python)
-- [Jupyter Notebook](notebook/) 
-- 'Introduction' notebook
+### Welcome (10:45am - 11:00am)
 
-### Introduction to Minecraft (15 mins: 11:55am - 12:10pm)  
-  - Play the game!
+**Moderator**: Pingping Chen
+
+**Speaker**: Nelly Cheng
+
+- Welcoming and Introduction (Nelly Cheng)
+- Run through of the day (Pingping Chen)
+
+### Ice-Breaking - Volunteer/Students Interaction (11:00am - 11:10am, 10 mins)
+
+**Moderator**: Jane Wang
+- Volunteer introduction
+
+### Introducion to Programming (11:10am - 11:30am, 20 mins)
+
+**Moderator**: Tin Lok Koo
+
+- What is Raspberry Pi?
+- Setup of Raspberry Pi
+- Introduce Programming [Game](http://compute-it.toxicode.fr/?hour-of-code)
+    - Loops
+    - Nested loops
+    - If then else
+    
+### Introduction to Python (11:30am - 12:10am, 40 mins)
+
+**Moderator**: Tin Lok Koo
+
+- Notebook [Introduction.ipynb](notebook/01_Python_Introduction.ipynb)
+- Programming Challenges!
+
+### Lunch Break (1210:am - 01:00pm, 50 mins)
+
+### Introduction to Minecraft (01:00pm - 01:15pm, 15 mins)
+
+**Moderator**: Jane Wang
+- Start the Minecraft Game
     - Menu -> Games -> Minecraft
     - Start Game -> Create New (you can create new worlds till you get one you like)
-  - Keys:
-  
+
+- ![helloworld](screenshots/hello_world.png)
+- Explain the game
+- How to navigate in the world with keyboard
+    - ![minecraft_control](images/minecraft-pi-controls.png)
+    
     Key | Action 
     --- | ------
     W	| Forward
@@ -55,39 +80,27 @@
     Double Space	|	Fly / Fall
     Esc	| Pause / Game menu
     Tab	| Release mouse cursor
-
+    
 - Minecraft coordinate system:
-  - x-axis: East (positive), West (negative)
-  - z-axis: South (positive), North (negative)
-  - y-axis: High (positive), Low (negative)
-  - Right-handed coordinates: thumb = x, index = y, middle = z
-  
-![Coordinate Systems](http://viz.aset.psu.edu/gho/sem_notes/3d_fundamentals/gifs/left_right_hand.gif)
+    - x-axis: East (positive), West (negative)
+    - z-axis: South (positive), North (negative)
+    - y-axis: High (positive), Low (negative)
+    - Right-handed coordinates: thumb = x, index = y, middle = z
+    - ![Coordinate Systems](images/left_right_hand.gif)
 
-## Try these out!
-    - Move to position 0,0,0
-    - Move to position 3,8,7
+- Building blocks
+- Play around the game environment!
 
-### Minecraft Programming (35 mins: 12:10pm - 12:45pm)
-- [Jupyter Notebook](notebook/)
-- 'Minecraft Programming' notebook
+### Minecraft Programming (01:15pm - 02:15pm, 60 mins)
 
-![hello](screenshots/hello_world.png)
+**Moderator**: Jane Wang, Tin Lok Koo
+- Run through the Notebook [Minrcraft Programming.ipynb](notebook/02_Minecraft_programming.ipynb)
+    - Programming: How to navigate in the world, place block with Python API
+    - API Documents:
+        - Introduction to the Minecraft Python API: http://www.stuffaboutcode.com/2013/04/minecraft-pi-edition-api-tutorial.html
+        - API reference: http://www.stuffaboutcode.com/p/minecraft-api-reference.html
 
-### Lunch Break (45 mins: 12:45pm - 1:30pm)
-- Makey Makey and VR Booths
-
-### Minecraft Programming Continued (30 mins 1:30pm - 2:00pm)
-- Continue with 'Minecraft Programming' notebook
-- Build your house! 
-
-![House](screenshots/house.png)
-
-### Electronics Introduction + Setup (30 mins 2:00pm - 2:30pm)
-
-### Electronics + MineCraft (75 mins 2:30pm - 3:45pm)
-- SmartHome and Bulldozer Exercise
-- [Jupyter Notebook](notebook/)
-- 'Minecraft Electronics' notebook
-
-### It's a Wrap! (15 mins 3:35-4:00pm)
+- Build a house:
+- ![House](screenshots/house.png)
+- The Ultimate Challenges: Build a Pyramid!!!
+- Write your code to build your own house
