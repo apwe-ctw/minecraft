@@ -21,21 +21,14 @@ Equipment:
 
 ### Welcome (10:45am - 11:00am)
 
-**Moderator**: Pingping Chen
-
-**Speaker**: Nelly Cheng
-
-- Welcoming and Introduction (Nelly Cheng)
-- Run through of the day (Pingping Chen)
+- Welcoming and Introduction
+- Run through of the day
 
 ### Ice-Breaking - Volunteer/Students Interaction (11:00am - 11:10am, 10 mins)
 
-**Moderator**: Jane Wang
 - Volunteer introduction
 
 ### Introducion to Programming (11:10am - 11:30am, 20 mins)
-
-**Moderator**: Tin Lok Koo
 
 - What is Raspberry Pi?
 - Setup of Raspberry Pi
@@ -46,16 +39,13 @@ Equipment:
     
 ### Introduction to Python (11:30am - 12:10am, 40 mins)
 
-**Moderator**: Tin Lok Koo
-
-- Notebook [Introduction.ipynb](notebook/01_Python_Introduction.ipynb)
+- Notebook [Introduction.ipynb](notebook/0_Python_Introduction.ipynb)
 - Programming Challenges!
 
 ### Lunch Break (1210:am - 01:00pm, 50 mins)
 
 ### Introduction to Minecraft (01:00pm - 01:15pm, 15 mins)
 
-**Moderator**: Jane Wang
 - Start the Minecraft Game
     - Menu -> Games -> Minecraft
     - Start Game -> Create New (you can create new worlds till you get one you like)
@@ -93,8 +83,7 @@ Equipment:
 
 ### Minecraft Programming (01:15pm - 02:15pm, 60 mins)
 
-**Moderator**: Jane Wang, Tin Lok Koo
-- Run through the Notebook [Minrcraft Programming.ipynb](notebook/02_Minecraft_programming.ipynb)
+- Run through the Notebook [Minrcraft Programming.ipynb](notebook/1_Minecraft_programming.ipynb)
     - Programming: How to navigate in the world, place block with Python API
     - API Documents:
         - Introduction to the Minecraft Python API: http://www.stuffaboutcode.com/2013/04/minecraft-pi-edition-api-tutorial.html
