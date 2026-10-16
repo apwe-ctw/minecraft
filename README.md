@@ -1,4 +1,4 @@
-# Girls in IT Initiatives - 2025
+# Girls in IT Initiatives - 2026
 
 - Date: 2025-04-12 (Saturday)
 - Time: 10:30am - 02:40pm
