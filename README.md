@@ -1,6 +1,6 @@
 # Girls in IT Initiatives - 2026
 
-- Date: 2025-04-12 (Saturday)
+- Date: 2026-11-21 (Saturday)
 - Time: 10:30am - 02:40pm
 - Location: Harbourside 1-2 (CKC 59F)
 
